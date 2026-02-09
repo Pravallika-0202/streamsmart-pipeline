@@ -27,20 +27,15 @@ This project implements a small-scale end-to-end data pipeline for **StreamSmart
 ---
 
 ## Project Structure
-streamsmart-pipeline/
-│
-├── notebooks/
-│ └── StreamSmart_Pipeline.ipynb
-│
-├── data/
-│ ├── raw/ # Original raw CSV and JSON files
-│ ├── processed/ # Cleaned and enriched datasets
-│ └── db/ # SQLite database
-│
-└── README.md
 
+- `notebooks/`
+  - `StreamSmart_Pipeline.ipynb`
+- `data/`
+  - `raw/` – original CSV & JSON files
+  - `processed/` – cleaned & enriched datasets
+  - `db/` – SQLite database
+- `README.md`
 
----
 
 ## Pipeline Overview
 
